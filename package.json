@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz",
+  "version": "0.0.0",
+  "main": "fizzbuzz_test.js",
+  "scripts": {
+    "test": "mocha tests",
+    "test:fizzbuzz": "mocha tests/fizzbuzz_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3"
+  }
+}
